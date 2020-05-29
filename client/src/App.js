@@ -18,6 +18,7 @@ function App() {
           <Route path="/" exact component={Main} />
         </Switch>
       </div>
+      
 
     </BrowserRouter>
   );
