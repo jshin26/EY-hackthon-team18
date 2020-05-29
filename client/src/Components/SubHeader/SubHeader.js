@@ -3,6 +3,7 @@ import './SubHeader.scss';
 import searchIcon from '../../asset/Search Icon.png';
 
 import { Link, Switch, Route } from 'react-router-dom';
+import ProductCard from '../ProductCard/ProductCard'
 import Apple from '../ProductCard/Apple';
 
 
@@ -23,7 +24,7 @@ const SubHeader = () => {
 
             <div className="subheader--bottom">
                 <Link to="/market/products" className="subheader__link product">
-                    Products
+                    Products                    
                 </Link>
                 <Link to="/market/farm" className="subheader__link vendor">
                     Vendors

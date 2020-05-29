@@ -5,7 +5,7 @@ Link{
 }
 .main-header {
     padding-top: 60px;
-    width: 400px;
+    min-width: 350px;
     background-color: #2E2E38;
     height: 100vh;
     &__content{
@@ -23,6 +23,7 @@ Link{
     }
     &__user{
         display: flex;
+        // justify-content: center;
         color: #E5E5E5;
         margin-bottom: 4rem;
         .user-img{
