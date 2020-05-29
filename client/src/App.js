@@ -9,10 +9,15 @@ function App() {
   return (
     <BrowserRouter>
       
-      <Header />
-      <Switch>
-        <Route path="/market" exact component={Main} />
-      </Switch>
+      <div className="page-content">
+        <Header />
+        <Switch>
+          
+
+          <Route path="/market" component={Main} />
+          <Route path="/" exact component={Main} />
+        </Switch>
+      </div>
 
     </BrowserRouter>
   );
