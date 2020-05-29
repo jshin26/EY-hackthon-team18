@@ -12,7 +12,7 @@ class Main extends React.Component {
                 <SubHeader />
                 <Switch>
                     <Route path="/market/products" exact component = {Products} />
-                    <Route path="/market/Farm" exact component = {Farm} />
+                    <Route path="/market/farm" exact component = {Farm} />
                 </Switch>
 
             </React.Fragment>
