@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Header from './Components/Header/Header';
-import Main from './Pages/Main/Main'
+// import Main from './Pages/Main/Main'
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
     <div className = "page-content">
 
       <Header />
-      <Switch>
+      {/* <Switch>
         <Route path="/market" exact component={Main} />
-      </Switch>
+      </Switch> */}
 
     </div>
       
