@@ -13,12 +13,16 @@ function App() {
         <Header />
         <Switch>
           
+<<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+>>>>>>> 9ce3be927a3eefcf85e9756a06bc17b3bdb5ace1
           <Route path="/market" component={Main} />
           <Route path="/" exact component={Main} />
         </Switch>
       </div>
+<<<<<<< HEAD
 =======
     <div className = "page-content">
 
@@ -29,6 +33,8 @@ function App() {
 
     </div>
 >>>>>>> 7ee05567a376aa1fb331035eb338f2b321afc1b0
+=======
+>>>>>>> 9ce3be927a3eefcf85e9756a06bc17b3bdb5ace1
       
 
     </BrowserRouter>
