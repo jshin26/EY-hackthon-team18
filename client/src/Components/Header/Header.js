@@ -3,8 +3,9 @@ import './Header.scss';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    return (
+    return 
         <header className="main-header">
+
 
             <div className = "main-header__content">
 
