@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Header from './Components/Header/Header';
-import Main from './Pages/Main/Main'
+// import Main from './Pages/Main/Main'
 
 function App() {
   return (
@@ -13,7 +13,6 @@ function App() {
         <Header />
         <Switch>
           
-
           <Route path="/market" component={Main} />
           <Route path="/" exact component={Main} />
         </Switch>
