@@ -1,9 +1,10 @@
 
 
 .subheader {
+
     &--top {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 70px 0;
     }
     &__logo-container {
@@ -40,7 +41,10 @@
         width: 30px;
         height: 28px;
         object-fit: contain;
-        padding: 6p 12px 6px 0;
+        padding: 6p 12px;
+        margin-left: 12px;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
     &__search {
         width: 660px;
@@ -56,14 +60,8 @@
         height: 48px;
         background-color: #2e2e38;
         padding: 10px 0 0 50px;
-        .product {
-            color: #a6dfb7;
-            border-bottom: 4px solid #a6dfb7;
-            &:link,
-            &:visited {
-                color: #a6dfb7;
-            }
-        }
+
+
     }
     &__link {
         font-size: 28px;
@@ -74,6 +72,16 @@
         &:visited {
             color: #fff;
         }
-        
+        &:hover,
+        &:active {
+            font-size: 28px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #a6dfb7;
+            text-decoration: underline;
+        }
     }
 }
